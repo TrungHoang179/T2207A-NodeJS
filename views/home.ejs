@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="/css/app.css">
+    </head>
+    <body>
+        <h1>Class: <%= className %></h1>
+        <h2>Students:</h2>
+        <ul>
+             <% students.forEach(e=>{ %>
+                <li><%= e %></li>
+            <% }) %>
+        </ul>
+    </body>
+</html>
