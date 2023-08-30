@@ -7,8 +7,4 @@ router.get("/",controller.home)
 
 router.get("/about",controller.about);
 
-
-
-
-
 module.exports = router;

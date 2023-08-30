@@ -1,21 +1,16 @@
 exports.home = (req,res)=>{
+    // res.send("Hello T2207A");
     var abc = "T2207A";
     var students = [
-        "Phung Van A",
-        "Trinh Van B",
-        "Nguyen Van C"
+        "Phùng Văn Vũ",
+        "Trịnh Văn Trung",
+        "Nguyễn Văn An"
     ];
     res.render("home",{
-        className : abc,
-        students : students
+        clasName: abc,
+        students: students
     });
-}
-
+} 
 exports.about = (req,res)=>{
-    var xyz = "Us";
-    res.render("about",{
-        classInfor : xyz
-
-    });
+    res.render("aboutus");
 }
-
