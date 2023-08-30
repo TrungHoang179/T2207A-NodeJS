@@ -1,5 +1,4 @@
 exports.home = (req,res)=>{
-    // res.send("Hello T2207A");
     var abc = "T2207A";
     var students = [
         "Phùng Văn Vũ",
